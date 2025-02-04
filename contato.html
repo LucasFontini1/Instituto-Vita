@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="contato">
+    <header>
+        <h1>
+            <a  id="logo" href="index.html">
+
+                <img id="logotipo" src="./img/download.jpg" alt="">
+
+                <span id="site">Instituto <br><span class="blue">Vita</span></span>
+            </a>
+        </h1>
+
+        <nav id="navHeader">
+            <ul id="ulHeader">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="bemestar.html">Bem-estar</a>
+                </li>
+
+                <li>
+                    <a href="exercicios.html">Exercicios</a>
+                </li>
+
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+
+                <li>
+                    <a href="desenvolvedores.html">Desenvolvedores</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="form">
+        <h1>Contato</h1>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem:</label>
+                <input type="text" id="msg">
+            </div>
+            
+        </form>
+        <p onclick="form()" id="abu">Enviar</p>
+        <div id="responseMessage"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
