@@ -4,16 +4,16 @@ function perdaPeso(){
                 Perda de gordura
             </h4>
             <p id="txt-perda">
-                <span id="letra-maior">A</span> perda de peso saudável envolve a adoção de hábitos como uma alimentação equilibrada e a prática regular de atividade física. O Ministério da Saúde do Brasil recomenda focar na promoção da saúde, considerando a perda de peso apenas como um dos elementos do cuidado, e não o único objetivo.
+                <span id="letra-maior">A</span> perda de peso saudável envolve a adoção de hábitos como uma alimentação equilibrada e a prática regular de atividade física. O Ministério da Saúde do Brasil recomenda focar na promoção da saúde, considerando a perda de peso apenas como um dos elementos do cuidado, e não o único objetivo. (VEIT-ROSA-2015)
             </p>
 
             <p id="exp-ex">
-                <span id="letra-maior">E</span>xercícios como agachamentos, flexões e abdominais são ótimas opções para praticar em casa. No entanto, cada pessoa tem necessidades específicas, e é fundamental contar com a orientação de um profissional de educação física para garantir um treino seguro e eficaz.
+                <span id="letra-maior">E</span>xercícios como agachamentos, flexões e abdominais são ótimas opções para praticar em casa. No entanto, cada pessoa tem necessidades específicas, e é fundamental contar com a orientação de um profissional de educação física para garantir um treino seguro e eficaz. (VEIT-ROSA-2015)
             </p>
             <div id="exercicios-img">
                 <p id="img-um">
                     <a href="./img/Os Benefícios da Atividade Física - Meu Treino Perfeito.jpeg">
-                        <img src="./img/Os Benefícios da Atividade Física - Meu Treino Perfeito.jpeg" alt="Agachamento" id="complemento-txt">
+                        <img src="./img/Os Benefícios da Atividade Física - Meu Treino Perfeito.jpeg" alt="Agachamento" id="complemento-txt"> 
                     </a>
                 </p>
                 <p>
@@ -31,11 +31,11 @@ function ganhoMassa(){
                 Ganho de massa
             </h4>
             <p id="txt-perda">
-                <span id="letra-maior">O</span> ganho de massa muscular requer treino de força, alimentação equilibrada e descanso adequado. A ingestão de proteínas, carboidratos complexos e gorduras saudáveis é essencial para o anabolismo muscular. Além disso, o consumo adequado de calorias e a regularidade nos exercícios são fundamentais. Evitar dietas restritivas garante resultados mais consistentes.
+                <span id="letra-maior">O</span> ganho de massa muscular requer treino de força, alimentação equilibrada e descanso adequado. A ingestão de proteínas, carboidratos complexos e gorduras saudáveis é essencial para o anabolismo muscular. Além disso, o consumo adequado de calorias e a regularidade nos exercícios são fundamentais. Evitar dietas restritivas garante resultados mais consistentes. (VEIT-ROSA-2015)
             </p>
 
             <p id="exp-ex">
-                <span id="letra-maior">N</span>a academia, exercícios como musculação, treino cardiovascular (esteira e bicicleta) e aulas funcionais são ótimas opções para melhorar o condicionamento físico. No entanto, cada pessoa possui objetivos e necessidades específicas. Por isso, é essencial buscar a orientação de um profissional de educação física para elaborar um treino personalizado, garantindo segurança e resultados eficazes.
+                <span id="letra-maior">N</span>a academia, exercícios como musculação, treino cardiovascular (esteira e bicicleta) e aulas funcionais são ótimas opções para melhorar o condicionamento físico. No entanto, cada pessoa possui objetivos e necessidades específicas. Por isso, é essencial buscar a orientação de um profissional de educação física para elaborar um treino personalizado, garantindo segurança e resultados eficazes. (VEIT-ROSA-2015)
             </p>
             <div id="exercicios-img">
                 <p id="img-um">

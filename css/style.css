@@ -351,3 +351,8 @@ font-size: 2vw;}
     #participantes h2{
         margin-bottom: 1vw;
     }
+
+    footer{
+        text-align: center;
+        margin: 5vw 0;
+    }
