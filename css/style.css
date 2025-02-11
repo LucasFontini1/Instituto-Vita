@@ -89,18 +89,26 @@ main{
     }
     .sumario ol li a {
         font-size: 3rem;
+        margin: 3vw 2vw 3vw 2vw;
        
         
     }
     .sumario ol li a:hover {
         font-size: 4rem;
         transition: 1s ;
+        margin: 3vw 2vw 3vw 2vw;
        
     }
     .sumario ul li{
         font-size: 2rem;
-        margin: 2vw 2vw 3vw 2vw;
+        margin: 2vw 2vw 2vw 2vw;
     }
+    .sumario ul li:hover{
+        transition: 1s;
+        font-size: 2.5rem;
+        margin: 2vw 2vw 2vw 2vw;
+    }
+
     
     .letrainicial {
         color: rgb(0, 148, 25);
