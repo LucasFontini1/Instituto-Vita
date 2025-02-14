@@ -271,21 +271,24 @@ main{
         background-size: cover;
         padding: 5vw;
         border-bottom: rgb(30, 30, 133) solid 3px;
-        border-top: rgb(0, 148, 25) solid 3px;
-       
-    
-    }
-    #tit-int2{
-        font-size: 5vw;
-        font-family: 'comfortaa';
-        text-align: center;
-    }
+        border-top: rgb(0, 148, 25) solid 3px;}
+
+        #tit-int2{
+            font-size: 5vw;
+            font-family: 'comfortaa';
+            text-align: center;
+         } 
     .textos h2{
         font-size: 3.5rem;
     }
     .textos p{
         font-size: 1.5rem;
     }
+    .imagens img.primeiraImagem{
+        width: 480;
+        height:350;
+    }
+
     .pritexto {
         display: flex;
         padding: 1vw 1vw 1vw 1vw;

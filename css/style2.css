@@ -1,0 +1,371 @@
+@media (max-width:450px) {
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Parkinsans:wght@300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans:wght@100..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+    justify-content: space-between;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+#logotipo{
+
+    height: 6vw ;
+    width: 6vw;
+
+}
+#site{
+    font-size: 2.5vw;
+    font-family: 'comfortaa';
+    color: rgb(0, 148, 25);
+    margin-left: 1vw;
+}
+.blue{
+    color: rgb(30, 30, 133);
+}
+
+#ulHeader{
+    display: flex;
+    
+}
+#ulHeader a{
+    font-size: 1.7vw;
+    padding: 1vw 1vw;
+    font-family: 'comfortaa';
+}
+#ulHeader li{
+    margin: 0 10px;
+}
+#ulHeader li:first-child{
+margin-left: 0;
+}
+#ulHeader li:last-child{
+    margin-right: 0;
+}
+
+
+
+
+main{
+    padding: 2vw 10vw;
+}
+
+/*INICIO SECTION 1*/
+
+    #int-hmpg{
+        background: url(./Fundo\ Serviços\ De\ Saúde\ Decoração\ Do\ ícone\ Efeito\ Leve\ Abstracto\ Fundo\,\ Saúde\,\ Tratamento\ Médico\,\ Azul\ Imagem\ de\ plano\ de\ fundo\ para\ download\ gratuito.jpg) no-repeat;
+        background-color:  rgba(0, 148, 25, 1) ;
+        background-size: cover;
+        padding: 5vw;
+        border-bottom: rgb(30, 30, 133) solid 3px;
+        border-top: rgb(0, 148, 25) solid 3px;
+    
+    }
+    #tit-int{
+        font-size: 5vw;
+        font-family: 'comfortaa';
+        text-align: center;
+    }
+    .introducao h2{
+        font-size: 4rem;
+        text-align: center;
+        color: rgb(30, 30, 133)
+
+    }
+    .introducao p{
+        font-size: 1.6rem;
+        padding: 1.5vw;
+    }
+    .textoeimagem {
+        display: flex;
+    }
+    hr{
+        border-color:black;
+    }
+    .sumario ol li a {
+        font-size: 3rem;
+        margin: 3vw 2vw 3vw 2vw;
+       
+        
+    }
+    .sumario ol li a:hover {
+        font-size: 4rem;
+        transition: 1s ;
+        margin: 3vw 2vw 3vw 2vw;
+       
+    }
+    .sumario ul li{
+        font-size: 2rem;
+        margin: 2vw 2vw 2vw 2vw;
+    }
+    .sumario ul li:hover{
+        transition: 1s;
+        font-size: 2.5rem;
+        margin: 2vw 2vw 2vw 2vw;
+    }
+
+    
+    .letrainicial {
+        color: rgb(0, 148, 25);
+    }
+   
+    .letrainicialdois{
+        color: rgb(30, 30, 133);
+    }
+    .sumario h2{
+        font-size: 4rem;
+        text-align: center;
+        color: rgb(0, 148, 25);
+        padding: 1vw 1vw 1vw 1vw;
+    }
+ 
+    /*PAG-EX*/
+
+    #exe{
+        display: flex;
+        align-items: center;
+    }
+
+    #ex #exe #txt{
+        font-size: 1.2vw;
+        font-family: 'comfortaa';
+        line-height:2vw;
+        text-align: justify;
+        margin-right: 2vw;
+    }
+
+    #ex #letra-maior{
+        font-size: 3.5vw;
+        color: rgb(0, 148, 25);
+        font-family: 'comfortaa';
+    }
+
+    #ex #complemento-txt{
+        height: 25vw;
+        width: 30vw;
+        border-top:solid 3px rgb(0, 148, 25);
+        border-left:solid 3px rgb(0, 148, 25);
+        border-right:solid 3px rgb(30, 30, 133);
+        border-bottom:solid 3px rgb(30, 30, 133);
+    }
+
+
+    #ex #obj-seu #tit-obj{
+        font-size: 2.5vw;
+        text-align: center;
+        margin-top: 5vw;
+        font-family: 'comfortaa';
+    }
+
+    #ex #opcoes p{
+        padding: 2% 10%;
+        font-size: 2vw;
+        font-family: 'comfortaa';
+        cursor: pointer;
+        margin-top: 2vw;
+        border-radius: 1vw;
+    }
+
+    #ex #opcoes p:first-child{
+        margin-right: 1vw;
+        background-color: rgb(0, 148, 25);
+        color: white;
+    }
+
+    #ex #opcoes p:last-child{
+        margin-left: 1vw;
+        background-color: rgb(30, 30, 133);
+        color: white;
+    }
+
+    #apos-click{
+        margin: 4vw 0;
+    }
+
+    #apos-click #perda-gordura{
+        font-size: 2.5vw;
+        text-align: center;
+        font-family: 'comfortaa';
+    }
+    #apos-click #txt-perda, #exp-ex{
+        font-size: 1.2vw;
+        font-family: 'comfortaa';
+        text-align: justify;
+        line-height: 2vw;
+        margin-bottom: 4vw;
+    }
+    #apos-click #exercicios-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    #img-um{
+        margin-right: 1vw;
+    }
+
+    #limpa{
+        text-align: center;
+        color: blue;
+        text-decoration: underline;
+        font-size: 2vw;
+        cursor: pointer;
+        margin-top: 2vw;
+    }
+
+    /*PAG CONTATO*/
+    #obrigatorio{
+        color: red;
+    }
+    #form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contato #form label{
+        font-size: 1.5vw;
+        font-family: 'comfortaa';   
+    }
+    #contato #form input{
+        font-size: 1.5vw;
+        font-family: 'comforta';
+        padding: 0 ;
+        margin-left: 0.6vw;
+        border-top: rgb(0, 148, 25) solid 2px;
+        border-left: rgb(0, 148, 25) solid 2px;
+        border-bottom: rgb(30, 30, 133) solid 2px;
+        border-right: rgb(30, 30, 133) solid 2px;
+        width: 33%;
+    }
+    
+
+    #contato #form p{
+        display: flex;
+        align-items: center;
+        
+    }
+    #coluna-um{
+        display: block;
+        align-items: center;
+        
+    }
+
+    #form{
+        
+        justify-content: space-between;
+    }
+    #contactForm{
+        text-align: center;
+        display: flex;
+        margin: 2vw 0
+    }
+    /*pag bem estar */ 
+    #int-hmpg2{
+        background: url(./Fundo\ Serviços\ De\ Saúde\ Decoração\ Do\ ícone\ Efeito\ Leve\ Abstracto\ Fundo\,\ Saúde\,\ Tratamento\ Médico\,\ Azul\ Imagem\ de\ plano\ de\ fundo\ para\ download\ gratuito.jpg) no-repeat;
+        background-color:  rgba(0, 148, 25, 1) ;
+        background-size: cover;
+        padding: 5vw;
+        border-bottom: rgb(30, 30, 133) solid 3px;
+        border-top: rgb(0, 148, 25) solid 3px;}
+
+        #tit-int2{
+            font-size: 5vw;
+            font-family: 'comfortaa';
+            text-align: center;
+         } 
+    .textos h2{
+        font-size: 1rem;
+    }
+    
+    .textos p{
+        font-size: 1.5rem;
+    }
+    .imagens img.primeiraImagem{
+        width: 480;
+        height:350;
+    }
+    .pritexto {
+        display: flex;
+        padding: 1vw 1vw 1vw 1vw;
+        align-items: center;
+    }
+    .letrama{
+        font-size: 3rem;
+        color:rgb(0, 148, 25, 1) ;
+    }
+    .titum{
+        color:rgb(32, 126, 48)
+        
+    }
+    .titdois{
+        color: rgb(30, 30, 133);
+    }
+    .letramadois{
+        font-size: 3rem;
+        color:rgb(30, 30, 133) ;
+    }
+    .segtexto{
+        display: flex;
+        align-items: center;
+    }
+    .segundaparte{
+        padding: 2vw 1vw 1vw 1vw;
+    }
+    .fonte{
+        margin: 0 0 0vw 39vw;
+    }
+    #vamo{
+        font-family: 'comfortaa';
+    }
+
+    html{
+        font-family: 'comfortaa';
+    }
+
+    #form h1{
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    #abu{
+        display: block;
+        text-align: center;
+        font-size: 2vw;
+        cursor: pointer
+    }
+    #responseMessage{
+        font-size: 1.2vw;
+        margin-top: 1vw;
+    }
+
+    #participantes h1{
+        font-size: 2vw;
+        text-align: center;
+        margin-top: 4vw;
+    }
+    #participantes img{
+        width: 20vw;
+        height: 20vw;
+        border-radius: 20vw;
+    }
+    #participantes li{display: flex;
+    align-items: center;
+font-size: 2vw;}
+    #participantes #sla{
+        margin-left: 10vw;
+    }
+    #participantes h2{
+        margin-bottom: 1vw;
+    }
+
+    footer{
+        text-align: center;
+        margin: 5vw 0;
+    }
+}
