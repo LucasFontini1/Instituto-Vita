@@ -284,14 +284,14 @@ main{
     .textos p{
         font-size: 1.5rem;
     }
-    .imagens img.primeiraImagem{
-        width: 480;
-        height:350;
+    .imagens img{
+        width: 440px;
+        height: 300px;
     }
 
     .pritexto {
         display: flex;
-        padding: 1vw 1vw 1vw 1vw;
+        padding: 1.5vw 1vw 1.5vw 1vw;
         align-items: center;
     }
     .letrama{
@@ -308,7 +308,7 @@ main{
     .letramadois{
         font-size: 3rem;
         color:rgb(30, 30, 133) ;
-    }
+    }r
     .segtexto{
         display: flex;
         align-items: center;
@@ -316,8 +316,16 @@ main{
     .segundaparte{
         padding: 2vw 1vw 1vw 1vw;
     }
+    .segtexto img{
+        width: 600px;
+        height: 300px;
+    }
     .fonte{
         margin: 0 0 0vw 39vw;
+    }
+    .creditos{
+        font-size: 1.1rem;
+        color: rgb(70, 69, 69);
     }
     #vamo{
         font-family: 'comfortaa';
@@ -342,24 +350,24 @@ main{
         font-size: 1.2vw;
         margin-top: 1vw;
     }
-
-    #participantes h1{
-        font-size: 2vw;
+/*participantes*/
+    .participantes h1{
+        font-size: 3rem;
         text-align: center;
         margin-top: 4vw;
     }
-    #participantes img{
+    .participantes img{
         width: 20vw;
         height: 20vw;
         border-radius: 20vw;
     }
-    #participantes li{display: flex;
+    .participantes li{display: flex;
     align-items: center;
-font-size: 2vw;}
-    #participantes #sla{
+    font-size: 2vw;}
+    .participantes #sla{
         margin-left: 10vw;
     }
-    #participantes h2{
+    .participantes h2{
         margin-bottom: 1vw;
     }
 
