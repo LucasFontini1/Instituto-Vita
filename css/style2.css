@@ -73,38 +73,40 @@ main{
         text-align: center;
     }
     .introducao h2{
-        font-size: 4rem;
+        font-size: 2rem;
         text-align: center;
         color: rgb(30, 30, 133)
 
     }
     .introducao p{
-        font-size: 1.6rem;
+        font-size: 1rem;
         padding: 1.5vw;
     }
-    .textoeimagem {
-        display: flex;
+    
+    .textoeimagem img{
+        width: 200px;
+        height: 150px;
     }
     hr{
         border-color:black;
     }
     .sumario ol li a {
-        font-size: 3rem;
+        font-size: 2.2rem;
         margin: 3vw 2vw 3vw 2vw;
        
         
     }
     .sumario ol li a:hover {
-        font-size: 4rem;
+        font-size: 2.5rem;
         transition: 1s ;
         margin: 3vw 2vw 3vw 2vw;
        
     }
-    .sumario ul li{
-        font-size: 2rem;
+    .sumario ul li p{
+        font-size: 0.9rem;
         margin: 2vw 2vw 2vw 2vw;
     }
-    .sumario ul li:hover{
+    .sumario ul li p:hover{
         transition: 1s;
         font-size: 2.5rem;
         margin: 2vw 2vw 2vw 2vw;
@@ -113,13 +115,16 @@ main{
     
     .letrainicial {
         color: rgb(0, 148, 25);
+        font-size: 1.5;
+        
     }
    
     .letrainicialdois{
         color: rgb(30, 30, 133);
+        font-size: 1.4rem;
     }
     .sumario h2{
-        font-size: 4rem;
+        font-size: 2rem;
         text-align: center;
         color: rgb(0, 148, 25);
         padding: 1vw 1vw 1vw 1vw;
@@ -133,26 +138,35 @@ main{
     }
 
     #ex #exe #txt{
-        font-size: 1.2vw;
+        font-size: 0.55rem;
         font-family: 'comfortaa';
         line-height:2vw;
         text-align: justify;
         margin-right: 2vw;
     }
+    #ref-txt{
+        color: gray;
+    }
+   
 
     #ex #letra-maior{
-        font-size: 3.5vw;
+        font-size: 2rem;
         color: rgb(0, 148, 25);
         font-family: 'comfortaa';
     }
 
     #ex #complemento-txt{
-        height: 25vw;
-        width: 30vw;
+        height: 40vw;
+        width: 40vw;
         border-top:solid 3px rgb(0, 148, 25);
         border-left:solid 3px rgb(0, 148, 25);
         border-right:solid 3px rgb(30, 30, 133);
         border-bottom:solid 3px rgb(30, 30, 133);
+    }
+    #obj-seu #opcoes{
+        display: block; 
+        align-items: center; 
+        justify-content: center; 
     }
 
 
@@ -225,18 +239,19 @@ main{
     #form{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: right ;
     }
 
     #contato #form label{
-        font-size: 1.5vw;
+        font-size: 1.5rem;
         font-family: 'comfortaa';   
+        margin-left: 2rem;
     }
     #contato #form input{
-        font-size: 1.5vw;
+        font-size: 0.8rem;
         font-family: 'comforta';
         padding: 0 ;
-        margin-left: 0.6vw;
+        margin-left: 1vw;
         border-top: rgb(0, 148, 25) solid 2px;
         border-left: rgb(0, 148, 25) solid 2px;
         border-bottom: rgb(30, 30, 133) solid 2px;
@@ -247,23 +262,22 @@ main{
 
     #contato #form p{
         display: flex;
-        align-items: center;
+        align-items: left;
         
     }
     #coluna-um{
         display: block;
-        align-items: center;
+        align-items: left;
         
     }
 
     #form{
-        
         justify-content: space-between;
     }
     #contactForm{
-        text-align: center;
-        display: flex;
-        margin: 2vw 0
+        text-align:right;
+        display: block;
+        margin: 2vw 0;
     }
     /*pag bem estar */ 
     #int-hmpg2{
